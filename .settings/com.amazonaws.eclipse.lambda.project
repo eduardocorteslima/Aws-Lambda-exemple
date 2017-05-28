@@ -1,0 +1,7 @@
+#Lambda Function Project Metadata
+#Sat Mar 11 16:33:32 BRT 2017
+lastInvokeShowLiveLog=false
+lastDeploymentFunctionName=HelloFunction
+lastDeploymentBucketName=bucket-eduardo-us-virginia
+lastDeploymentEndpoint=https\://lambda.us-east-1.amazonaws.com/
+lastInvokeInput={\n  "Records"\: [\n    {\n      "EventSource"\: "aws\:sns",\n      "EventVersion"\: "1.0",\n      "EventSubscriptionArn"\: "arn\:aws\:sns\:EXAMPLE",\n      "Sns"\: {\n        "Type"\: "Notification",\n        "MessageId"\: "95df01b4-ee98-5cb9-9903-4c221d41eb5e",\n        "TopicArn"\: "arn\:aws\:sns\:EXAMPLE",\n        "Subject"\: "TestInvoke",\n        "Message"\: "Hello from SNS\!",\n        "Timestamp"\: "1970-01-01T00\:00\:00.000Z",\n        "SignatureVersion"\: "1",\n        "Signature"\: "EXAMPLE",\n        "SigningCertUrl"\: "EXAMPLE",\n        "UnsubscribeUrl"\: "EXAMPLE",\n        "MessageAttributes"\: {\n          "Test"\: {\n            "Type"\: "String",\n            "Value"\: "TestString"\n          },\n          "TestBinary"\: {\n            "Type"\: "Binary",\n            "Value"\: "TestBinary"\n          }\n        }\n      }\n    }\n  ]\n}
